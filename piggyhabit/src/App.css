@@ -1,9 +1,13 @@
 :root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --primary-color: #5B9A8B;     /* Teal */
+  --secondary-color: #E96479;   /* Soft Red */
+  --accent-color: #F9F871;      /* Sunny Yellow */
+  --background-dark: #212625;   /* Updated background for contrast */
+  --text-color: #212625;        /* Main text (dark for accent areas) */
+  --text-on-primary: #ffffff;   /* White text on primary */
+  --text-on-secondary: #ffffff; /* White text on secondary */
+  --border-color: rgba(33,38,37,0.1);
+  --text-secondary: rgba(33,38,37,0.7);
 }
 
 body {
